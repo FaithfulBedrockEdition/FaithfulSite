@@ -9,7 +9,51 @@ body, html {
 h4, h5, h6, ul, .blog-info, .sidebar {
   text-align: center;
 }
+ 
+/* Download button */
 
+<a href="#" class="downloadbutton">Download</a>
+
+.downloadbutton {
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #62bf34), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #62bf34 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #62bf34 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #62bf34 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #62bf34 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #62bf34 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62bf34', endColorstr='#72b352',GradientType=0);
+	background-color:#62bf34;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:16px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.downloadbutton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #62bf34));
+	background:-moz-linear-gradient(top, #72b352 5%, #62bf34 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #62bf34 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #62bf34 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #62bf34 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #62bf34 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#62bf34',GradientType=0);
+	background-color:#72b352;
+}
+.downloadbutton:active {
+	position:relative;
+	top:1px;
+}
 
 /* Nav */
 
