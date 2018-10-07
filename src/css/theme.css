@@ -10,33 +10,33 @@ h4, h5, h6, ul, .blog-info, .sidebar {
   text-align: center;
 }
 
-.wrapper {
-  text-align: center;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+/* testttt */
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
 }
 
-.tile_div a {
-    display: block;
-    float: left;
-    height: 50px;
-    width: 100px;
-    margin-right: 5px;
-    background-image: url(./images/button_left.png);
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
 }
 
-.title_div a.last {
-    margin-right: 0;
-}
-
-.clear {
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
     clear: both;
+    display: table;
 }
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
 
 /* Changelogg button */
 
