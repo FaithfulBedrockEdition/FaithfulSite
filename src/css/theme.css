@@ -209,6 +209,9 @@ nav {
   .header img {
     max-width: 50%;
   }
+	.sidebar {
+  visibility: hidden;
+  }
   .footer-content {
     padding-bottom: 20px;
   }
